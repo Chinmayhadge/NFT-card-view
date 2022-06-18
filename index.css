@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+body{
+    background-color: hsl(217, 54%, 11%);
+    margin: 0px; 
+    font-family: 'Outfit', sans-serif;   
+}
+.block-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card{
+    width: 290px;
+    height: 580px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 20px;
+}
+.contain{
+    width: 100%;
+    position: relative;
+    
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsla(178, 100%, 50%,0.6);
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: ease-in 0.3s;
+    cursor: pointer;
+}
+.overlay:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.img-block{
+    display: block;
+    width: 290px;
+    border-radius: 10%;
+}
+.head-text{
+    color: hsl(0, 0%, 100%);
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+.head-text:hover{
+    color: hsla(178, 100%, 50%,0.6);
+    cursor: pointer;
+}
+.content{
+    color: hsl(215, 51%, 70%);
+    padding: 20px 0px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 50;
+}
+.price td{
+    padding: 0px 0px 0px 15px;
+    color: hsl(0, 0%, 100%);
+}
+.countdown td{
+    padding: 0px 0px 0px 15px;
+    color: hsl(0, 0%, 100%);
+}
+.table-block td img{
+float: left;
+padding-right:15px;
+}
+.price p{
+    margin: auto;
+    color: hsl(178, 100%, 50%);
+}
+.countdown p {
+    margin: auto;
+    color: hsl(215, 51%, 70%); 
+}
+.creater{
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.creater:hover{
+    color: hsla(178, 100%, 50%,0.6);
+    cursor: pointer;
+}
+.table-block{
+    padding-bottom: 20px;
+}
+.table-block1{
+    padding-bottom: 20px;
+}
+.border{
+    border-bottom: 1px solid hsl(0, 0%, 100%);
+}
+.speaker{
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 100%);
+}
+.attribution{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-size: 11px !important;
+}
+.attribution a{
+    color: hsl(178, 100%, 50%) !important;
+    text-decoration: none;
+    
+}
